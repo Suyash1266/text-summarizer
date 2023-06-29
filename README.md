@@ -2,7 +2,10 @@
 A simple python notebook which utilises the power of transformers to generate a summary of the input text
 
 ## Summarization
-The summarization feature uses the pre-trained model from Google, Pegasus, specifically pegasus-large. Other variants can be used to run the code on low end machines, namely the pegasus-cnn_dailymail and pegasus-newsroom. This can be modified by changing the model name in the notebook.
+The summarization feature uses the pre-trained model from Google, Pegasus, specifically pegasus-large. Other variants can be used to run the code on low end machines, namely the pegasus-cnn_dailymail and pegasus-newsroom. This can be modified by changing the model name in the `generate_summary()` function.
+```python
+model_name = 'google/pegasus-large'
+```
 
 Other paramters can also be fine-tuned to enhance the performance of the summarization model to match your specific needs.
 
